@@ -13,13 +13,15 @@ const desarrollados = [
 ]
 
   const persona = {
-    nombre: 'Joaquin Avila Lahr',
+    nombre: 'Joaquin',
+    apellido: 'Avila Lahr',
     carrera: 'Tecnicatura Universitaria en Programación',
     presentacion: 'Soy estudiante de Programacion en la UTN-FRT y un gran apasionado en aprender cosas nuevas',
     edad: 19,
     provincia: 'Tucuman',
     email: 'Joaquinavilalahr330@gmail.com',
     conocimientos: ['JavaScript', 'C#', 'HTML / CSS', 'React', 'GitHub / Git', 'SQL'],
+    infoExtra: ''
   };
 
   const [proyectos, setProyectos] = useState([])
@@ -31,7 +33,8 @@ const desarrollados = [
   return (
     <div>
      {proyectos.map((proyecto)=> <Projects titulo={proyecto.titulo} descripcion={proyecto.descripcion}/>)}
-     {<Header nombre={persona.nombre} carrera={persona.carrera}/>}
+     {<Header nombre={persona.nombre} apellido={persona.apellido} carrera={persona.carrera}/>}
+     { <Hero nombre={persona.nombre} presentacion={persona.presentacion}/>}
     </div>
 
   )

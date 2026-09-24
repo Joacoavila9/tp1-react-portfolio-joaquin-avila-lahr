@@ -1,4 +1,5 @@
-const Hero = () => {
+import '../css/Hero.css'
+const Hero = ({nombre, presentacion}) => {
 
 
 
@@ -6,7 +7,13 @@ const Hero = () => {
 
 
     return (
-        <h1>hola soy el Hero</h1>
+        <section className="hero-container">
+            <h1 className="hero-titulo">¡Hola! mi nombre es {nombre}</h1>
+            <p className="hero-subtitulo"> {presentacion} </p>
+
+        </section>
+        
+
 
 
 
