@@ -1,0 +1,20 @@
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+}
+
+.header-nombre {
+  font-size: 1.4rem;
+  color: #61dafb;
+  margin: 0;
+}
+
+.header-carrera {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}

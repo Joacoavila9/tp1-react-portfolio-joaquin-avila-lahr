@@ -31,6 +31,7 @@ const desarrollados = [
   return (
     <div>
      {proyectos.map((proyecto)=> <Projects titulo={proyecto.titulo} descripcion={proyecto.descripcion}/>)}
+     {<Header nombre={persona.nombre} carrera={persona.carrera}/>}
     </div>
 
   )
