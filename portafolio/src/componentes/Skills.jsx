@@ -1,4 +1,4 @@
- const Skills = () => {
+ const Skills = ({conocimientos}) => {
 
 
 
@@ -6,7 +6,22 @@
 
 
     return (
-        <h1>hola soy el Skills</h1>
+        <div>
+            <p>Mis skills: {conocimientos} </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
 
 
 
