@@ -1,4 +1,6 @@
-const Footer = () => {
+import '../css/Footer.css'
+
+const Footer = ({email}) => {
 
 
 
@@ -6,7 +8,15 @@ const Footer = () => {
 
 
     return (
-        <h1>hola soy el footer</h1>
+        <footer className="footer-container">
+            <div className="footer-contenido">
+                <a href={`mailto:${email}`} className="footer-mail">
+                    {email}
+                </a>
+                <span className="footer-separador">|</span>
+                <span className="footer-institucion">UTN FRT</span>
+            </div>
+        </footer>
 
 
 

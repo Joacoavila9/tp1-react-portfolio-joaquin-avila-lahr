@@ -9,7 +9,7 @@ const App = () => {
 
 const desarrollados = [
 {titulo: 'GeoLotes', descripcion:'Pagina para poder visualizar lotes a la venta' },
-{titulo: 'Pet Match', descripcion: 'Plataforma para el seguimiento y gestión de adopción de mascotas.' }
+{titulo: 'Pet Match', descripcion: 'Plataforma para el seguimiento y gestión de adopción de mascotas.' },
 ]
 
   const persona = {
@@ -34,11 +34,12 @@ const desarrollados = [
 
   return (
     <div>
-     {proyectos.map((proyecto)=> <Projects titulo={proyecto.titulo} descripcion={proyecto.descripcion}/>)}
      {<Header nombre={persona.nombre} apellido={persona.apellido} carrera={persona.carrera}/>}
      { <Hero nombre={persona.nombre} presentacion={persona.presentacion}/>}
      {<About carrera={persona.carrera} nombre={persona.nombre} apellido={persona.apellido} edad={persona.edad} provincia={persona.provincia} infoExtra={persona.infoExtra} emprendimiento={persona.emprendimiento} estadoCivil={persona.estadoCivil} presentacion={persona.presentacion}/>}
      {<Skills conocimientos={persona.conocimientos}/>}
+     {proyectos.map((proyecto)=> <Projects titulo={proyecto.titulo} descripcion={proyecto.descripcion}/>)}
+     {<Footer email={persona.email}/>}
     </div>
 
   )
