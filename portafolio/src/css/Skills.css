@@ -30,3 +30,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
+
+.projects-titulo{
+font-size: 2rem;
+  color: #61dafb;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+
+}

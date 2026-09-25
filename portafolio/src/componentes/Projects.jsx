@@ -1,4 +1,4 @@
-import {Card} from 'react-bootstrap'
+import {Card, Col} from 'react-bootstrap'
 import '../css/Projects.css'
 
 const Projects = ({titulo, descripcion}) => {
@@ -9,20 +9,18 @@ const Projects = ({titulo, descripcion}) => {
 
 
     return (
-        <section>
-            <h1>MIS PROYECTOS</h1>
-      <div className="card-contenedor">
-      <Card className="project-card">
-      <Card.Body>
-        <Card.Title className="project-title">{titulo}</Card.Title>
-        <Card.Text className="project-text">
-          {descripcion}
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </div>
-    </section>
-
+       <Col xs={12} md={6} lg={5} className="d-flex justify-content-center">
+      <div className="card-contenedor w-100">
+        <Card className="project-card">
+          <Card.Body>
+            <Card.Title className="project-title">{titulo}</Card.Title>
+            <Card.Text className="project-text">
+              {descripcion}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+    </Col>
 
 
 

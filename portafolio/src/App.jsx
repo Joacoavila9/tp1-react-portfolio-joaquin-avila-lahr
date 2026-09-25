@@ -4,6 +4,7 @@ import Header from "./componentes/Header"
 import Hero from "./componentes/Hero"
 import Projects from "./componentes/Projects"
 import Skills from "./componentes/Skills"
+import { Row } from "react-bootstrap"
 import { useState, useEffect } from "react"
 const App = () => {
 
@@ -38,7 +39,9 @@ const desarrollados = [
      { <Hero nombre={persona.nombre} presentacion={persona.presentacion}/>}
      {<About carrera={persona.carrera} nombre={persona.nombre} apellido={persona.apellido} edad={persona.edad} provincia={persona.provincia} infoExtra={persona.infoExtra} emprendimiento={persona.emprendimiento} estadoCivil={persona.estadoCivil} presentacion={persona.presentacion}/>}
      {<Skills conocimientos={persona.conocimientos}/>}
+     <Row className="justify-content-center g-4">
      {proyectos.map((proyecto)=> <Projects titulo={proyecto.titulo} descripcion={proyecto.descripcion}/>)}
+     </Row>
      {<Footer email={persona.email}/>}
     </div>
 
