@@ -2,7 +2,7 @@
 
 Estudiante: Joaquín Avila Lahr  
 Carrera: Tecnicatura Universitaria en Programación (comision 7)
-Universidad Tecnológica Nacional – Facultad Regional Tucumán (UTN FRT)[cite: 1]  
+Universidad Tecnológica Nacional – Facultad Regional Tucumán (UTN FRT) 
 
 ---
 
