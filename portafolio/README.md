@@ -24,24 +24,28 @@ Este proyecto consiste en un portfolio personal desarrollado con React y Vite co
 
 Para instalar las dependencias necesarias del proyecto, seguir los siguientes pasos:
 
-Clonar el repositorio:
+- Clonar el repositorio:
 git clone URL_DEL_REPOSITORIO en este caso la URL es: https://github.com/Joacoavila9/tp1-react-portfolio-joaquin-avila-lahr.git
-Ingresar a la carpeta del proyecto:
+
+
+- Ingresar a la carpeta del proyecto: 
 cd portafolioReact
-Instalar las dependencias:
+
+
+- Instalar las dependencias:
 npm install
 
 Este comando instala todas las dependencias necesarias especificadas en el archivo package.json.
 
-Ejecutar el proyecto en modo desarrollo:
+- Ejecutar el proyecto en modo desarrollo:
 npm run dev
 
-Luego, abrir en el navegador la dirección indicada por Vite, normalmente:
+- Abrir en el navegador la dirección indicada por Vite, normalmente:
 
 http://localhost:5173
 
-Requisitos previos
-Node.js instalado.
-npm instalado.
-Git instalado para clonar el repositorio.
+## Requisitos previos
+- Node.js instalado.
+- npm instalado.
+- Git instalado para clonar el repositorio.
    
